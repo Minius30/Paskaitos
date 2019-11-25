@@ -8,64 +8,61 @@
     <meta charset="UTF-8">
 </head>
 <body>
-
-<header>
-
-    <ul>
-        <li><a href="http://google.com">Apie mane</a></li>
-        <li><a href="/portfolio.html">Portfolio</a></li>
-        <li><a href="http://youtube.com">Kontaktai</a></li>
-        <li><a href="http://gmail.com">Adresai</a></li>
+<div id="grid">
 
 
-        <form action="nieko.php" method="Post">
+    <header>
 
 
-            <input name="1" id="first" placeholder="Vartotojo vardas"><br>
-            <input name="2" id="second" placeholder="Slaptazodis"><br>
-            <button>Spausk</button>
+        <ul>
+            <li><a href="http://google.com">Apie mane</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="http://youtube.com">Kontaktai</a></li>
+            <li><a href="http://gmail.com">Adresai</a></li>
+        </ul>
+    </header>
+    <aside>
+        Pagalba
+    </aside>
+    <main>
+
+
+        <form action="kursiustiduomenis.php">
+            <input type="text" name="vardas" placeholder="Jūsų vardas"/><br>
+            <input type="email" name="el-pastas" placeholder="Jūsų el. pašto adresas"/><br>
+            <input type="text" name="tema" placeholder="Žinutės tema"><br>
+            <textarea name="zinute" placeholder="Jūsų žinutė mums.." cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Siųsti">
+        </form>
+        <br><br>
+        <form action="kursiustiduomenis.php">
+            <label for="name">Jūsų vardas</label>
+            &nbsp;<input type="text" name="vardas" id="name"/><br>
             <br>
+            <label for="emailas">Jūsų el. pašto adresas</label>
+            <input type="email" name="el-pastas" id="emailas"/>
             <br>
-            <label>
-                <input name="12" text="Vart" Vartotojo vardas"><br>
-                <input name="22" Slaptazodis"><br>
-                <textarea name="zinute" id="msg"></textarea><br>
-                <button>Spausk</button>
-                <br>
-            </label>
-
-
+            <label for="apie_ka">Žinutės tema</label>
+            <input type="text" name="tema" id="apie_ka">
             <br>
-
-
+            <label for="msg">Jūsų žinutė mums:</label>
+            <textarea name="zinute" id="msg" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Siųsti">
         </form>
 
 
-    </ul>
-</header>
-<aside>
-    Pagalba
-</aside>
-<p>Tai yra paragrafas</p>
-<div>O cia yra turinio skyrius</div>
+        <img src="Img/phonepicutres-TA.jpg" alt="" width="250" height="250">
+        <img src="Img/27techtipwebART-articleInline.jpg" alt="q" width="250" height="250">
+        <img src="Img/index.jpg" alt="" width="250" height="250">
 
-<main>
-    Cia yra pagrindass
-    Lorem ipsum dolor sit amet, consectetur.<br>
-    Lorem ipsum dolor sit amet, consectetur.<br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing.<br>
-    <img src="Img/phonepicutres-TA.jpg" alt="" width="250" height="250">
-    <img src="Img/27techtipwebART-articleInline.jpg" alt="q" width="250" height="250">
-    <img src="Img/index.jpg" alt="" width="250" height="250">
+    </main>
 
-</main>
+    <footer>
+        Visos teises saugomos @2019
 
-<footers>
-    Visos teises saugomos @2019
-
-</footers>
-
+    </footer>
+</div>
 
 </body>
 </html>
