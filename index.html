@@ -3,9 +3,15 @@
 <html>
 <head>
     <title>Mano puslapis</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/meniu.css">
+    <link rel="stylesheet" href="css/tabs.css">
+
+
+
 </head>
 <body>
 <div id="grid">
@@ -16,9 +22,9 @@
 
         <ul>
             <li><a href="http://google.com">Apie mane</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="http://youtube.com">Kontaktai</a></li>
-            <li><a href="http://gmail.com">Adresai</a></li>
+<!--            <li><a href="/portfolio.html">Portfolio</a></li>-->
+<!--            <li><a href="http://youtube.com">Kontaktai</a></li>-->
+<!--            <li><a href="http://gmail.com">Adresai</a></li>-->
         </ul>
     </header>
     <aside>
@@ -27,34 +33,43 @@
     <main>
 
 
+        <div>
+            <img src="Img/lempa_off.jpg" onclick="toggleLamp()" id="lempute"/> <p>Click me<p>
+
+
+        </div>
+        <div class="testas">Krauti</div>
+
+
         <form action="kursiustiduomenis.php">
             <input type="text" name="vardas" placeholder="Jūsų vardas"/><br>
             <input type="email" name="el-pastas" placeholder="Jūsų el. pašto adresas"/><br>
+
             <input type="text" name="tema" placeholder="Žinutės tema"><br>
             <textarea name="zinute" placeholder="Jūsų žinutė mums.." cols="30" rows="10"></textarea><br>
             <input type="submit" value="Siųsti">
         </form>
         <br><br>
         <form action="kursiustiduomenis.php">
-            <label for="name">Jūsų vardas</label>
+            <label for="name">Jūsų vardas</label><br>
             &nbsp;<input type="text" name="vardas" id="name"/><br>
             <br>
-            <label for="emailas">Jūsų el. pašto adresas</label>
+            <label for="emailas">Jūsų el. pašto adresas</label><br>
             <input type="email" name="el-pastas" id="emailas"/>
             <br>
-            <label for="apie_ka">Žinutės tema</label>
+            <label for="apie_ka">Žinutės tema</label><br>
             <input type="text" name="tema" id="apie_ka">
             <br>
-            <label for="msg">Jūsų žinutė mums:</label>
+            <label for="msg">Jūsų žinutė mums:</label><br>
             <textarea name="zinute" id="msg" cols="30" rows="10"></textarea>
             <br>
             <input type="submit" value="Siųsti">
         </form>
 
 
-        <img src="Img/phonepicutres-TA.jpg" alt="" width="250" height="250">
-        <img src="Img/27techtipwebART-articleInline.jpg" alt="q" width="250" height="250">
-        <img src="Img/index.jpg" alt="" width="250" height="250">
+        <img src="Img/phonepicutres-TA.jpg" alt="" width="500" height="250">
+        <img src="Img/27techtipwebART-articleInline.jpg" alt="q" width="500" height="250">
+        <img src="Img/about.jpg" alt="" width="500" height="250">
 
     </main>
 
@@ -62,8 +77,12 @@
         Visos teises saugomos @2019
 
     </footer>
-</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/loader.js"></script>
+    <script type="text/javascript" src="mydata.json"></script>
+    <script src="js/bulb.js"></script>
+    <script src="js/table.js"></script>
 
 </body>
 </html>
-                                                                                                                                                            
+

@@ -1,0 +1,31 @@
+
+    @keyframes Hover_animacija {
+        from {background-color: white;}
+        to {background-color: blue;}
+        
+    }
+    header ul li {
+        list-style-type: none;
+        float: left;
+        margin: 20px 10px 20px;
+
+
+
+}
+    header ul li a {
+        animation-name: Hover_animacija;
+        animation-duration: 2s;
+    }
+
+
+
+/*li{*/
+
+/*    display: inline-block;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    padding: 5px;*/
+/*    border: 2px black;*/
+/*    background-color: red;*/
+/*}*/
+

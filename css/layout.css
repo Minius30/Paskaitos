@@ -1,5 +1,8 @@
 header{
-    background-color: aqua;
+
+
+    font-family: "Bauhaus 93";
+    background-color: saddlebrown;
     grid-area: h;
 }
 aside{
@@ -10,7 +13,9 @@ aside{
     grid-area: a;
 }
 main{
-    background-color: rebeccapurple;
+background-color: darkslategray;
+
+    /*background-color: rebeccapurple;*/
     grid-area: m;
 
 }
@@ -46,4 +51,9 @@ footer{
     }
 
 }
+
+
+
+
+
 
