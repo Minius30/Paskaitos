@@ -26,9 +26,9 @@ footer{
 #grid{
     display: grid;
     grid-template-areas:
-'h h'
-'a m'
-'f f';
+'h h h'
+'a m m'
+'f f f';
     grid-template-columns: 250px;
 }
 

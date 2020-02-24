@@ -9,7 +9,7 @@ function load(text) {
         let meniuItem = meniu[i];
         meniuString += '<li><a href="' + meniuItem.adresas + '">' + meniuItem.pavadinimas + '</a></li>';
     }
-    document.querySelector('header > ul').innerHTML = meniuString; // Will log "is my fave color"
+    document.querySelector('header div ul').innerHTML = meniuString; // Will log "is my fave color"
 }
 
 function loadJSON(callback) {
@@ -30,11 +30,12 @@ loadJSON(load);
 
 
 $(function () {
-    $('header ul li a').click(function (e) {
+    $('header div ul li a').click(function (e) {
         e.preventDefault();
         let elementas = $(this);
         let adresas = elementas.attr('href');
 
         $('main').load(adresas);
     });
+
 });

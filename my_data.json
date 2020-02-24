@@ -1,14 +1,18 @@
 [
   {
-    "pavadinimas": "Apie",
+    "pavadinimas": "HOME",
+    "adresas": "/"
+  },
+  {
+    "pavadinimas": "TAB",
+    "adresas": "tabai.html"
+  },
+  {
+    "pavadinimas": "ABOUT",
     "adresas": "apie.html"
   },
   {
-    "pavadinimas": "Kontaktai",
-    "adresas": "portfolio.html"
-  },
-  {
-    "pavadinimas": "Tabai",
-    "adresas": "tabai.html"
+    "pavadinimas": "CONTACT",
+    "adresas": "kontaktai.html"
   }
 ]

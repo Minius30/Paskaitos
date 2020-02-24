@@ -4,7 +4,7 @@ body, html {
     font-family: Arial;
 }
 
-/* Style tab links */
+/* Tabu linkas */
 .tablink {
     background-color: #555;
     color: white;
@@ -29,7 +29,7 @@ body, html {
     height: 100%;
 }
 
-#Home {background-color: yellow;}
+#Home {background-color: tomato;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
